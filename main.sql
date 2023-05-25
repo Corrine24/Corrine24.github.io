@@ -1,0 +1,21 @@
+CREATE TABLE registration (
+  id INT(11) AUTO_INCREMENT PRIMARY KEY,
+  first_name VARCHAR(50) NOT NULL,
+  last_name VARCHAR(50) NOT NULL,
+  guardian VARCHAR(20) NOT NULL,
+  father_name VARCHAR(50),
+  husband_name VARCHAR(50),
+  dob_day VARCHAR(2) NOT NULL,
+  dob_month VARCHAR(2) NOT NULL,
+  dob_year VARCHAR(4) NOT NULL,
+  qualification VARCHAR(100),
+  occupation VARCHAR(50) NOT NULL,
+  school_name VARCHAR(100),
+  company_name VARCHAR(100),
+  address VARCHAR(200),
+  area_code VARCHAR(10),
+  phone VARCHAR(20),
+  email VARCHAR(50),
+  reference VARCHAR(50),
+  photo VARCHAR(255)
+);
